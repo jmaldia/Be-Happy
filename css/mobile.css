@@ -1,0 +1,28 @@
+
+
+body {
+  background-color: #1abc9c;
+}
+
+.note {
+  font-size: .75rem;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+}
+
+ .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container section {
+  margin: 20 auto;
+  text-align: center;
+  float: inherit;
+  padding: 0;
+}
+

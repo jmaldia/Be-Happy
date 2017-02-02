@@ -1,0 +1,75 @@
+/*
+ * General Styles
+*/
+
+body {
+  background-color: #1abc9c;
+  /*background: url('');*/
+  font-family: 'Open Sans', arial, sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-size: 16px;
+  color: #ffffff;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.note {
+  font-family: "Montserrat", Arial;
+  font-size: 1.25rem;
+  color: #ecf0f1;
+}
+
+.header {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  line-height: 380%;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.container section {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.container section:nth-child(odd) {
+  background-color: #cecece;
+}
+
+.container section:nth-child(even) {
+  background-color: #f1c40f;
+}
+
+.container section:last-child {
+  margin-bottom: 20%;
+}
+
+.map {
+  padding: 0;
+}
